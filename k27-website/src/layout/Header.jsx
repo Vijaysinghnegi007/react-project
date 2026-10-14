@@ -4,8 +4,16 @@ import HeaderContent from "../components/header/HeaderContent";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <header className="fixed z-50 w-full bg-transparent">
+    <header
+      className={`fixed top-0 z-50 w-full ${
+        isMenuOpen ? "bg-black" : "bg-transparent"
+      }`}
+    >
       <div className="flex items-center justify-between pl-2 fill-white">
         {/* Logo */}
         <div className="pt-1">
@@ -27,7 +35,7 @@ const Header = () => {
         {/* Menu button */}
         <button
           type="button"
-          onClick={() => setIsMenuOpen((open) => !open)}
+          onClick={handleMenuToggle}
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           aria-expanded={isMenuOpen}
           aria-controls="site-navigation"

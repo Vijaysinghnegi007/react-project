@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "scrollytelling": {
+      "source": "doodledood/claude-code-plugins",
+      "sourceType": "github",
+      "skillPath": "claude-plugins/frontend-design/skills/scrollytelling/SKILL.md",
+      "computedHash": "e168e15a1c7871ec49ca12710b94c5f2228eaf79279b53c77347e1bd9874b9ec"
+    }
+  }
+}
