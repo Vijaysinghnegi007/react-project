@@ -19,6 +19,45 @@ const AgencePage = () => {
           </p>
         </div>
       </div>
+
+      <div className="max-w-6xl mx-auto grid grid-rows-2 gap-32 font-[font2] font-bold text-xl mt-20 ">
+        <div className="grid grid-cols-3 gap-5 lg:gap-14">
+          <div>
+            <h2 className="font-bold">Expertise</h2>
+          </div>
+          <div class="">
+            <ul class="" data-scroll="">
+              <li>Stratégie</li>
+              <li>Publicité</li>
+              <li>Branding</li>
+              <li>Design </li>
+              <li>Contenu</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-3 gap-5 lg:gap-20 ">
+          <div classname="">
+            <p>
+              Nos projets_ naissent dans l’humilité, grandissent dans la
+              curiosité et vivent grâce à la créativité sous toutes ses formes.
+            </p>
+          </div>
+          <div classname="">
+            <p>
+              Notre création_ bouillonne dans un environnement où le talent a le
+              goût d’exploser. Où on se sent libre d’être la meilleure version
+              de soi-même.
+            </p>
+          </div>
+          <div classname="">
+            <p>
+              Notre culture_ c’est l’ouverture aux autres. Point. Tout
+              l’équipage participe à bâtir une agence dont on est fiers.{" "}
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
