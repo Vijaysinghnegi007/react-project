@@ -1,1 +1,3 @@
-this is the project for the learning
+﻿# React Project
+
+This project is for learning and development.

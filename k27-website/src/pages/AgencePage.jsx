@@ -4,7 +4,13 @@ const AgencePage = () => {
   return (
     <section>
       {/* image  */}
-
+      <div className="absolute overflow-hidden lg:h-[20vw] h-[30vw] lg:rounded-3xl rounded-xl lg:w-[15vw] w-[25vw] lg:top-96 -top-80 lg:left-[30vw] left-[30vw]">
+        <img
+          className="h-full object-cover w-full"
+          src="https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg"
+          alt=""
+        />
+      </div>
       <div className="pt-[clamp(15vh,50vh,60vh)]">
         <h1 className="font-[font2]  text-[clamp(2.5rem,19vw,25vw)] uppercase leading-[18vw] text-center">
           Soixan7e <br />
