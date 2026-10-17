@@ -3,13 +3,15 @@ import React from "react";
 const AgencePage = () => {
   return (
     <section>
-      <div className="pt-[55vh]">
-        <h1 className="font-[font2] text-[20vw] uppercase leading-[18vw] text-center">
+      {/* image  */}
+
+      <div className="pt-[clamp(15vh,50vh,60vh)]">
+        <h1 className="font-[font2]  text-[clamp(2.5rem,19vw,25vw)] uppercase leading-[18vw] text-center">
           Soixan7e <br />
           Douze
         </h1>
-        <div className="pl-[40%] font-[font2] indent-36">
-          <p className="text-2xl md:text-6xl font-bold">
+        <div className="md:pl-[40%] font-[font2] ">
+          <p className="text-[clamp(1.5rem,3.7vw,5rem)] leading-none font-bold indent-[30%]">
             Notre curiosité nourrit notre créativité. On reste humbles et on dit
             non aux gros egos, même le vôtre. Une marque est vivante. Elle a des
             valeurs, une personnalité, une histoire. Si on oublie ça, on peut
@@ -20,8 +22,8 @@ const AgencePage = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto grid grid-rows-2 gap-32 font-[font2] font-bold text-xl mt-20 ">
-        <div className="grid grid-cols-3 gap-5 lg:gap-14">
+      <div className="max-w-6xl mx-auto grid grid-rows-2  font-[font2] font-bold text-xl mt-20 space-y-8 md:space-y-16 lg:space-y-24">
+        <div className="grid grid-cols-2 lg:grid-col-3 gap-5 lg:gap-14">
           <div>
             <h2 className="font-bold">Expertise</h2>
           </div>
@@ -36,7 +38,7 @@ const AgencePage = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-5 lg:gap-20 ">
+        <div className="grid grid-cols-1 md:grid-cols-3  gap-5 lg:gap-20 ">
           <div classname="">
             <p>
               Nos projets_ naissent dans l’humilité, grandissent dans la
@@ -53,7 +55,7 @@ const AgencePage = () => {
           <div classname="">
             <p>
               Notre culture_ c’est l’ouverture aux autres. Point. Tout
-              l’équipage participe à bâtir une agence dont on est fiers.{" "}
+              l’équipage participe à bâtir une agence dont on est fiers.
             </p>
           </div>
         </div>
